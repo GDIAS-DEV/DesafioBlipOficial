@@ -1,0 +1,13 @@
+{
+  "name": "TakeNetAPIBlipTest",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
