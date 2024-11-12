@@ -12,7 +12,7 @@ async function fetchRepositories() {
     // Faz a requisição para a API do GitHub buscando repositórios da Takenet
     const response = await fetch('https://api.github.com/orgs/takenet/repos?per_page=100', {
       headers: {
-        'Authorization': `Bearer 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`
+        //'Authorization': `Bearer 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`
       }
     });
 
