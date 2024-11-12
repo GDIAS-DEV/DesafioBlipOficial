@@ -1,4 +1,14 @@
 [2024-11-11T19:09:26.216Z] INFO: Servidor rodando na porta 3000
-[2024-11-11T20:08:55.234Z] INFO: Servidor rodando na porta 3000
-[2024-11-11T20:13:53.104Z] INFO: Servidor rodando na porta 3000
-[2024-11-11T20:16:25.965Z] INFO: Servidor rodando na porta 3000
+[2024-11-12T02:30:32.058Z] INFO: Servidor rodando na porta 3000
+[2024-11-12T02:31:52.468Z] ERROR: Erro ao buscar repositórios do GitHub: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:31:52.469Z] ERROR: Erro ao buscar repositórios: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:32:33.742Z] ERROR: Erro ao buscar repositórios do GitHub: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:32:33.743Z] ERROR: Erro ao buscar repositórios: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:32:38.810Z] ERROR: Erro ao buscar repositórios do GitHub: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:32:38.811Z] ERROR: Erro ao buscar repositórios: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:33:49.570Z] INFO: Servidor rodando na porta 3000
+[2024-11-12T02:33:54.223Z] ERROR: Erro ao buscar repositórios do GitHub: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:33:54.224Z] ERROR: Erro ao buscar repositórios: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:34:55.949Z] INFO: Servidor rodando na porta 3000
+[2024-11-12T02:34:59.585Z] ERROR: Erro ao buscar repositórios do GitHub: Erro na requisição ao GitHub: Unauthorized
+[2024-11-12T02:34:59.585Z] ERROR: Erro ao buscar repositórios: Erro na requisição ao GitHub: Unauthorized

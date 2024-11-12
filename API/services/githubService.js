@@ -4,15 +4,16 @@ const logger = require('../utils/logger');
 async function fetchRepositories() {
   // Importação dinâmica do node-fetch, compatível com CommonJS
   const fetch = (await import('node-fetch')).default;
-
- try {
-    // Faz a requisição para a API do GitHub buscando repositórios da Takenet
+ 
+ // Obtenha o token da variável de ambiente
+  const token = process.env.GITHUB_TOKEN;
+  
+  try {
     const response = await fetch('https://api.github.com/orgs/takenet/repos?per_page=100', {
       headers: {
-        'Authorization': `Bearer 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`
+        'Authorization': `Bearer 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`  // Adiciona o token ao cabeçalho
       }
     });
-
 
     if (!response.ok) {
       // Retorna erro caso a resposta não seja bem-sucedida
