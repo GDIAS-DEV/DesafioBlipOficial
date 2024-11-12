@@ -8,10 +8,11 @@ async function fetchRepositories() {
  // Obtenha o token da variável de ambiente
   const token = process.env.GITHUB_TOKEN;
   
-  try {
+ try {
+    // Faz a requisição para a API do GitHub buscando repositórios da Takenet
     const response = await fetch('https://api.github.com/orgs/takenet/repos?per_page=100', {
       headers: {
-        'Authorization': `Bearer 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`  // Adiciona o token ao cabeçalho
+        'Authorization': `Bearer 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`
       }
     });
 
