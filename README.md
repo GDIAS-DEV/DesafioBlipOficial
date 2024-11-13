@@ -88,11 +88,11 @@ https://abcd1234.ngrok.io/api/repositories
 Tratamento de Erros
 A API retorna mensagens de erro apropriadas para diferentes situações:
 
-401 Unauthorized: Quando o token de acesso do GitHub está incorreto ou ausente.
-403 Forbidden: Quando o limite de requisições da API do GitHub é atingido.
-404 Not Found: Quando o recurso solicitado não é encontrado.
-500 Internal Server Error: Quando ocorre um erro no servidor.
-Esses erros são tratados e uma mensagem amigável é retornada ao cliente.
+* 401 Unauthorized: Quando o token de acesso do GitHub está incorreto ou ausente.
+* 403 Forbidden: Quando o limite de requisições da API do GitHub é atingido.
+* 404 Not Found: Quando o recurso solicitado não é encontrado.
+* 500 Internal Server Error: Quando ocorre um erro no servidor.
+* Esses erros são tratados e uma mensagem amigável é retornada ao cliente.
 
 Tecnologias Utilizadas
 * Node.js: Ambiente de execução JavaScript.
