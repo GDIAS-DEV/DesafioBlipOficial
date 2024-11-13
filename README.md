@@ -1,29 +1,33 @@
 README
 
-TakeNet API - Consulta de Repositórios
+# TakeNet API - Consulta de Repositórios
+
 Esta API permite consultar informações sobre os 5 repositórios de linguagem C# mais antigos da organização Takenet no GitHub, ordenados do mais antigo para o mais novo. A API retorna detalhes como o nome completo do repositório, descrição e URL do avatar.
 
-#Índice
-#Visão Geral
-#Instalação
-#Configuração
-#Executando a API
-#Endpoints
-#Exemplo de Uso
-#Tratamento de Erros
-#Tecnologias Utilizadas
+## Índice
 
-Visão Geral
+* [Visão Geral](#visão-geral)
+* [Instalação](#instalação)
+* [Configuração](#configuração)
+* [Executando a API](#executando-a-api)
+* [Endpoints](#endpoints)
+* [Exemplo de Uso](#exemplo-de-uso)
+* [Tratamento de Erros](#tratamento-de-erros)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+
+## Visão Geral
+
 A API consulta os repositórios da organização Takenet no GitHub, filtra os repositórios de linguagem C#, e retorna os cinco repositórios mais antigos. Cada repositório inclui informações úteis, como nome completo, descrição e URL do avatar.
 
-Instalação
-Clone o repositório para sua máquina local:
+## Instalação
 
-bash
-Copiar código
-git clone <URL_DO_REPOSITORIO>
-cd TakeNetAPIBlipTest
-Instale as dependências necessárias:
+1. Clone o repositório para sua máquina local:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd TakeNetAPIBlipTest
+
+2. Instale as dependências necessárias:
 
 bash
 Copiar código
@@ -91,7 +95,7 @@ A API retorna mensagens de erro apropriadas para diferentes situações:
 Esses erros são tratados e uma mensagem amigável é retornada ao cliente.
 
 Tecnologias Utilizadas
-Node.js: Ambiente de execução JavaScript.
-Express: Framework para criação de servidores web.
-node-fetch: Biblioteca para fazer requisições HTTP.
-dotenv: Carrega variáveis de ambiente a partir de um arquivo .env.
+* Node.js: Ambiente de execução JavaScript.
+* Express: Framework para criação de servidores web.
+* node-fetch: Biblioteca para fazer requisições HTTP.
+* dotenv: Carrega variáveis de ambiente a partir de um arquivo .env.
