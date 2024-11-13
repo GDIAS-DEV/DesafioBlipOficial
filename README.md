@@ -3,15 +3,16 @@ README
 TakeNet API - Consulta de Repositórios
 Esta API permite consultar informações sobre os 5 repositórios de linguagem C# mais antigos da organização Takenet no GitHub, ordenados do mais antigo para o mais novo. A API retorna detalhes como o nome completo do repositório, descrição e URL do avatar.
 
-Índice
-Visão Geral
-Instalação
-Configuração
-Executando a API
-Endpoints
-Exemplo de Uso
-Tratamento de Erros
-Tecnologias Utilizadas
+#Índice
+#Visão Geral
+#Instalação
+#Configuração
+#Executando a API
+#Endpoints
+#Exemplo de Uso
+#Tratamento de Erros
+#Tecnologias Utilizadas
+
 Visão Geral
 A API consulta os repositórios da organização Takenet no GitHub, filtra os repositórios de linguagem C#, e retorna os cinco repositórios mais antigos. Cada repositório inclui informações úteis, como nome completo, descrição e URL do avatar.
 
